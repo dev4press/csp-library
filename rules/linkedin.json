@@ -1,0 +1,31 @@
+{
+    "name": "LinkedIn",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "content.linkedin.com",
+            "platform.linkedin.com",
+            "snap.licdn.com",
+            "static-exp1.licdn.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "*.licdn.com"
+        ],
+        "frame-src": [
+            "www.linkedin.com"
+        ],
+        "img-src": [
+            "*.licdn.com",
+            "*.linkedin.com",
+            "p.adsymptotic.com"
+        ],
+        "connect-src": [
+            "*.licdn.com",
+            "*.linkedin.com"
+        ],
+        "media-src": [
+            "media.licdn.com"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Innovid",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "*.innovid.com"
+        ],
+        "style-src": [
+            "s-static.innovid.com"
+        ],
+        "frame-src": [
+            "*.innovid.com"
+        ],
+        "img-src": [
+            "*.innovid.com"
+        ],
+        "font-src": [
+            "data:",
+            "s-static.innovid.com"
+        ],
+        "connect-src": [
+            "*.innovid.com"
+        ],
+        "base-uri": [
+            "rtr.innovid.com"
+        ],
+        "media-src": [
+            "*.innovid.com"
+        ]
+    }
+}

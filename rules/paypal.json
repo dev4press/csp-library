@@ -1,0 +1,30 @@
+{
+    "name": "PayPal",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "www.paypal.com",
+            "www.paypalobjects.com"
+        ],
+        "frame-src": [
+            "*.paypal.com",
+            "www.paypalobjects.com"
+        ],
+        "child-src": [
+            "*.paypal.com",
+            "www.paypalobjects.com"
+        ],
+        "img-src": [
+            "*.paypal.com",
+            "data:",
+            "www.paypalobjects.com"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.paypal.com",
+            "www.paypalobjects.com"
+        ]
+    }
+}

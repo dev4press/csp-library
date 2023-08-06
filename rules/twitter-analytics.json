@@ -1,0 +1,44 @@
+{
+    "name": "Twitter Ads",
+    "description": "",
+    "rules": {
+        "frame-ancestors": [
+            "t.co",
+            "twitter.com"
+        ],
+        "script-src": [
+            "*.ep-mimecast.ads-twitter.com",
+            "analytics.twitter.com",
+            "static.ads-twitter.com",
+            "t.co"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "platform.twitter.com"
+        ],
+        "frame-src": [
+            "*.twitter.com",
+            "twitter.com"
+        ],
+        "child-src": [
+            "platform.twitter.com"
+        ],
+        "img-src": [
+            "*.twitter.com",
+            "data:",
+            "t.co",
+            "twitter.com"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.twitter.com",
+            "t.co",
+            "twitter.com"
+        ],
+        "form-action": [
+            "*.twitter.com"
+        ]
+    }
+}

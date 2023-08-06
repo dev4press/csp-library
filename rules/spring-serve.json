@@ -1,0 +1,30 @@
+{
+    "name": "SprintServe",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "*.springserve.com"
+        ],
+        "frame-src": [
+            "ad-cdn.technoratimedia.com"
+        ],
+        "img-src": [
+            "*.springserve.com",
+            "*.technoratimedia.com",
+            "about:"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.springserve.com",
+            "*.technoratimedia.com"
+        ],
+        "base-uri": [
+            "*.technoratimedia.com"
+        ],
+        "media-src": [
+            "assets.springserve.com"
+        ]
+    }
+}

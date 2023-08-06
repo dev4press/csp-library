@@ -1,0 +1,27 @@
+{
+    "name": "WordPress.com",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "*.wp.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "*.wp.com"
+        ],
+        "frame-src": [
+            "widgets.wp.com"
+        ],
+        "img-src": [
+            "*.wp.com",
+            "data:"
+        ],
+        "font-src": [
+            "*.wp.com",
+            "data:"
+        ],
+        "connect-src": [
+            "*.wp.com"
+        ]
+    }
+}

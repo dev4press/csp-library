@@ -1,0 +1,20 @@
+{
+    "name": "Font Awesome",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "kit.fontawesome.com",
+            "use.fontawesome.com"
+        ],
+        "style-src": [
+            "*.fontawesome.com"
+        ],
+        "font-src": [
+            "*.fontawesome.com",
+            "data:"
+        ],
+        "connect-src": [
+            "*.fontawesome.com"
+        ]
+    }
+}

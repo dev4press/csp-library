@@ -1,0 +1,27 @@
+{
+    "name": "TrustArc",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "*.truste.com",
+            "choices.trustarc.com",
+            "consent.trustarc.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'"
+        ],
+        "frame-src": [
+            "*.trustarc.com"
+        ],
+        "img-src": [
+            "*.trustarc.com",
+            "*.truste.com"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "choices.trustarc.com"
+        ]
+    }
+}

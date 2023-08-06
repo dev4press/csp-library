@@ -1,0 +1,21 @@
+{
+    "name": "Cloudflare CDNJS",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "cdnjs.cloudflare.com"
+        ],
+        "style-src": [
+            "cdnjs.cloudflare.com"
+        ],
+        "img-src": [
+            "cdnjs.cloudflare.com"
+        ],
+        "font-src": [
+            "cdnjs.cloudflare.com"
+        ],
+        "connect-src": [
+            "cdnjs.cloudflare.com"
+        ]
+    }
+}

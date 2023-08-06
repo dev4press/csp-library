@@ -1,0 +1,40 @@
+{
+    "name": "AMP Project",
+    "description": "",
+    "rules": {
+        "frame-ancestors": [
+            "*.ampproject.org",
+            "about:"
+        ],
+        "script-src": [
+            "cdn.ampproject.org"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "cdn.ampproject.org"
+        ],
+        "frame-src": [
+            "*.ampproject.net"
+        ],
+        "child-src": [
+            "blob:"
+        ],
+        "img-src": [
+            "*.ampproject.org",
+            "blob:",
+            "data:"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.ampproject.net",
+            "ampcid.google.com",
+            "cdn.ampproject.org",
+            "data:"
+        ],
+        "worker-src": [
+            "blob:"
+        ]
+    }
+}

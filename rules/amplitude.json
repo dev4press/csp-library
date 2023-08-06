@@ -1,0 +1,12 @@
+{
+    "name": "Amplitude",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "cdn.amplitude.com"
+        ],
+        "connect-src": [
+            "*.amplitude.com"
+        ]
+    }
+}

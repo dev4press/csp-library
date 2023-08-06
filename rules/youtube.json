@@ -1,0 +1,22 @@
+{
+    "name": "YouTube",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "m.youtube.com",
+            "www.youtube.com"
+        ],
+        "frame-src": [
+            "*.youtube.com",
+            "www.youtube-nocookie.com"
+        ],
+        "child-src": [
+            "www.youtube.com"
+        ],
+        "img-src": [
+            "*.youtube.com",
+            "*.ytimg.com",
+            "data:"
+        ]
+    }
+}

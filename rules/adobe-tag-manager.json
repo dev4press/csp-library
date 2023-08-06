@@ -1,0 +1,32 @@
+{
+    "name": "Adobe Tag Manager",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "'unsafe-eval'",
+            "*.demdex.net",
+            "*.everesttech.net",
+            "assets.adobedtm.com",
+            "commerce.adobedtm.com"
+        ],
+        "frame-src": [
+            "*.demdex.net",
+            "*.everesttech.net"
+        ],
+        "child-src": [
+            "*.demdex.net",
+            "*.everesttech.net"
+        ],
+        "img-src": [
+            "*.adobedtm.com",
+            "*.demdex.net",
+            "*.everesttech.net",
+            "data:"
+        ],
+        "connect-src": [
+            "*.adobedtm.com",
+            "*.demdex.net",
+            "*.everesttech.net"
+        ]
+    }
+}

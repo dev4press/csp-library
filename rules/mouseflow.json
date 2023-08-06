@@ -1,0 +1,25 @@
+{
+    "name": "Mouseflow",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "cdn.mouseflow.com",
+            "cdn.mouseflow.com\/projects\/*.js"
+        ],
+        "frame-src": [
+            "*.mouseflow.com"
+        ],
+        "child-src": [
+            "*.mouseflow.com"
+        ],
+        "img-src": [
+            "*.mouseflow.com"
+        ],
+        "font-src": [
+            "*.mouseflow.com"
+        ],
+        "connect-src": [
+            "*.mouseflow.com"
+        ]
+    }
+}

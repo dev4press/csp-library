@@ -1,0 +1,24 @@
+{
+    "name": "Stripe",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "checkout.stripe.com",
+            "js.stripe.com"
+        ],
+        "style-src": [
+            "checkout.stripe.com"
+        ],
+        "frame-src": [
+            "*.stripe.com",
+            "*.stripe.network"
+        ],
+        "img-src": [
+            "*.stripe.com",
+            "data:"
+        ],
+        "connect-src": [
+            "*.stripe.com"
+        ]
+    }
+}

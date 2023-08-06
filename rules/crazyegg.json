@@ -1,0 +1,22 @@
+{
+    "name": "CrazyEgg",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "script.crazyegg.com"
+        ],
+        "child-src": [
+            "blob:"
+        ],
+        "img-src": [
+            "*.crazyegg.com",
+            "data:"
+        ],
+        "connect-src": [
+            "*.crazyegg.com"
+        ],
+        "worker-src": [
+            "blob:"
+        ]
+    }
+}

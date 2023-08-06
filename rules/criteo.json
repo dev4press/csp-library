@@ -1,0 +1,36 @@
+{
+    "name": "Criteo",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "*.criteo.com",
+            "static.criteo.net"
+        ],
+        "style-src": [
+            "'unsafe-inline'"
+        ],
+        "frame-src": [
+            "*.criteo.com",
+            "*.criteo.net"
+        ],
+        "child-src": [
+            "*.criteo.com",
+            "*.criteo.net"
+        ],
+        "img-src": [
+            "*.criteo.com",
+            "*.criteo.net"
+        ],
+        "font-src": [
+            "data:",
+            "static.criteo.net"
+        ],
+        "connect-src": [
+            "*.criteo.com",
+            "*.criteo.net"
+        ],
+        "media-src": [
+            "static.criteo.net"
+        ]
+    }
+}

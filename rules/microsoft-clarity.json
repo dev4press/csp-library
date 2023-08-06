@@ -1,0 +1,16 @@
+{
+    "name": "Microsoft Clarity",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "www.clarity.ms"
+        ],
+        "img-src": [
+            "*.clarity.ms",
+            "data:"
+        ],
+        "connect-src": [
+            "*.clarity.ms"
+        ]
+    }
+}

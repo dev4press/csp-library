@@ -1,0 +1,29 @@
+{
+    "name": "Google Analytics",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "google-analytics.com",
+            "ssl.google-analytics.com",
+            "www.google-analytics.com"
+        ],
+        "img-src": [
+            "analytics.google.com",
+            "blob:",
+            "data:",
+            "ssl.google-analytics.com",
+            "www.google-analytics.com",
+            "www.google.com"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "about:",
+            "ampcid.google.com",
+            "analytics.google.com",
+            "stats.g.doubleclick.net",
+            "www.google-analytics.com"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "FlowPlayer",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "releases.flowplayer.org"
+        ],
+        "style-src": [
+            "releases.flowplayer.org"
+        ],
+        "font-src": [
+            "data:",
+            "releases.flowplayer.org"
+        ]
+    }
+}

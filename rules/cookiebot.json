@@ -1,0 +1,26 @@
+{
+    "name": "Cookiebot",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "'unsafe-eval'",
+            "consent.cookiebot.com",
+            "consentcdn.cookiebot.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'"
+        ],
+        "frame-src": [
+            "consentcdn.cookiebot.com"
+        ],
+        "img-src": [
+            "data:"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "consentcdn.cookiebot.com"
+        ]
+    }
+}

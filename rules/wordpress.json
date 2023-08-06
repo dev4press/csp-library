@@ -1,0 +1,12 @@
+{
+    "name": "WordPress.org",
+    "description": "",
+    "rules": {
+        "img-src": [
+            "*.w.org"
+        ],
+        "media-src": [
+            "*.w.org"
+        ]
+    }
+}

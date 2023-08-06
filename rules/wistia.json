@@ -1,0 +1,52 @@
+{
+    "name": "Wistia",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "'unsafe-eval'",
+            "*.wistia.com",
+            "*.wistia.net",
+            "src.litix.io"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "blob:",
+            "fast.wistia.com"
+        ],
+        "object-src": [
+            "embedwistia-a.akamaihd.net"
+        ],
+        "frame-src": [
+            "*.wistia.com",
+            "*.wistia.net"
+        ],
+        "child-src": [
+            "blob:"
+        ],
+        "img-src": [
+            "*.wistia.com",
+            "*.wistia.net",
+            "data:",
+            "embedwistia-a.akamaihd.net"
+        ],
+        "font-src": [
+            "*.wistia.com",
+            "data:"
+        ],
+        "connect-src": [
+            "*.litix.io",
+            "*.wistia.com",
+            "embedwistia-a.akamaihd.net"
+        ],
+        "media-src": [
+            "*.wistia.com",
+            "*.wistia.net",
+            "blob:",
+            "data:",
+            "embedwistia-a.akamaihd.net"
+        ],
+        "worker-src": [
+            "blob:"
+        ]
+    }
+}

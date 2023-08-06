@@ -1,0 +1,12 @@
+{
+    "name": "G2 Crowd",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "tracking.g2crowd.com"
+        ],
+        "img-src": [
+            "*.g2crowd.com"
+        ]
+    }
+}

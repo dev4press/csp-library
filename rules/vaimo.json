@@ -1,0 +1,12 @@
+{
+    "name": "Vaimo",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "security-hub.vaimo.network"
+        ],
+        "connect-src": [
+            "*.vaimo.network"
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "name": "Brightcove",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "players.brightcove.net",
+            "vjs.zencdn.net"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "players.brightcove.net"
+        ],
+        "object-src": [
+            "c.brightcove.com",
+            "players.brightcove.net"
+        ],
+        "frame-src": [
+            "players.brightcove.net"
+        ],
+        "img-src": [
+            "*.akamaihd.net",
+            "*.boltdns.net",
+            "*.brightcove.com"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.brightcove.com"
+        ],
+        "media-src": [
+            "*.akafms.net",
+            "*.akamaihd.net",
+            "*.boltdns.net",
+            "*.brightcovecdn.com",
+            "*.cf.brightcove.com",
+            "*.llnw.net",
+            "*.llnwd.net",
+            "*.media.brightcove.com"
+        ],
+        "worker-src": [
+            "blob:"
+        ]
+    }
+}

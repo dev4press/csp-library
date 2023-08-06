@@ -1,0 +1,20 @@
+{
+    "name": "OneTrust",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "cdn-ukwest.onetrust.com",
+            "geolocation.onetrust.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "privacyportal-cdn.onetrust.com"
+        ],
+        "font-src": [
+            "privacyportal-cdn.onetrust.com"
+        ],
+        "connect-src": [
+            "*.onetrust.com"
+        ]
+    }
+}

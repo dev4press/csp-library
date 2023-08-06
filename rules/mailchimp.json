@@ -1,0 +1,21 @@
+{
+    "name": "Mailchimp",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "'unsafe-eval'",
+            "*.list-manage.com",
+            "chimpstatic.com",
+            "downloads.mailchimp.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "downloads.mailchimp.com"
+        ],
+        "img-src": [
+            "*.list-manage.com",
+            "*.mailchimp.com",
+            "data:"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Google reCAPTCHA",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "recaptcha.net",
+            "www.google.com\/recaptcha\/",
+            "www.gstatic.cn\/recaptcha\/",
+            "www.gstatic.com\/recaptcha\/",
+            "www.recaptcha.net"
+        ],
+        "frame-src": [
+            "*.recaptcha.net",
+            "recaptcha.google.com",
+            "recaptcha.net",
+            "www.google.com\/recaptcha\/"
+        ],
+        "img-src": [
+            "www.gstatic.com\/recaptcha"
+        ],
+        "worker-src": [
+            "www.recaptcha.net"
+        ]
+    }
+}

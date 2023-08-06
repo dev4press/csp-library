@@ -1,0 +1,18 @@
+{
+    "name": "Gleam",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "widget.gleamjs.io"
+        ],
+        "frame-src": [
+            "gleam.io"
+        ],
+        "img-src": [
+            "js.gleam.io"
+        ],
+        "connect-src": [
+            "gleam.io"
+        ]
+    }
+}

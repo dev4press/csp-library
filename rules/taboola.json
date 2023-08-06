@@ -1,0 +1,43 @@
+{
+    "name": "Taboola",
+    "description": "",
+    "rules": {
+        "frame-ancestors": [
+            "*.taboola.com"
+        ],
+        "script-src": [
+            "*.taboola.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "*.taboola.com"
+        ],
+        "frame-src": [
+            "*.taboola.com",
+            "data:"
+        ],
+        "img-src": [
+            "*.taboola.com",
+            "about:",
+            "blob:",
+            "data:"
+        ],
+        "font-src": [
+            "cdn.taboola.com",
+            "data:"
+        ],
+        "connect-src": [
+            "*.taboola.com",
+            "about:"
+        ],
+        "base-uri": [
+            "*.taboola.com"
+        ],
+        "form-action": [
+            "*.taboola.com"
+        ],
+        "media-src": [
+            "*.taboola.com"
+        ]
+    }
+}

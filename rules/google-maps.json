@@ -1,0 +1,33 @@
+{
+    "name": "Google Maps",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "maps.google.com",
+            "maps.googleapis.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'"
+        ],
+        "frame-src": [
+            "maps.google.com",
+            "maps.googleapis.com"
+        ],
+        "img-src": [
+            "*.ggpht.com",
+            "*.googleapis.com",
+            "blob:",
+            "data:",
+            "maps.google.com",
+            "maps.gstatic.com",
+            "www.gstatic.com"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "maps.google.com",
+            "maps.googleapis.com"
+        ]
+    }
+}

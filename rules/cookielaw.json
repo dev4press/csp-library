@@ -1,0 +1,16 @@
+{
+    "name": "CookieLaw",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "cdn.cookielaw.org"
+        ],
+        "img-src": [
+            "cdn.cookielaw.org",
+            "data:"
+        ],
+        "connect-src": [
+            "cdn.cookielaw.org"
+        ]
+    }
+}

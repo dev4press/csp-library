@@ -1,0 +1,15 @@
+{
+    "name": "SpiceWorks",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "px.spiceworks.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'"
+        ],
+        "img-src": [
+            "px.spiceworks.com"
+        ]
+    }
+}

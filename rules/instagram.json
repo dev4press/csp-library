@@ -1,0 +1,13 @@
+{
+    "name": "Instagram",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "platform.instagram.com",
+            "www.instagram.com"
+        ],
+        "frame-src": [
+            "www.instagram.com"
+        ]
+    }
+}

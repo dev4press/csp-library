@@ -1,0 +1,17 @@
+{
+    "name": "Bootstrap CDN",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "maxcdn.bootstrapcdn.com",
+            "netdna.bootstrapcdn.com",
+            "stackpath.bootstrapcdn.com"
+        ],
+        "style-src": [
+            "*.bootstrapcdn.com"
+        ],
+        "font-src": [
+            "*.bootstrapcdn.com"
+        ]
+    }
+}

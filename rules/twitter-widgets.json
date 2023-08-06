@@ -1,0 +1,40 @@
+{
+    "name": "Twitter",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "analytics.twitter.com",
+            "cdn.syndication.twimg.com",
+            "en.twitter.com",
+            "platform.twitter.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "platform.twitter.com",
+            "ton.twimg.com"
+        ],
+        "frame-src": [
+            "*.twitter.com"
+        ],
+        "img-src": [
+            "*.twimg.com",
+            "*.twitter.com",
+            "blob:",
+            "t.co"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.twimg.com",
+            "*.twitter.com",
+            "t.co"
+        ],
+        "form-action": [
+            "*.twitter.com"
+        ],
+        "media-src": [
+            "*.twimg.com"
+        ]
+    }
+}

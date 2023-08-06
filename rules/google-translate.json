@@ -1,0 +1,24 @@
+{
+    "name": "Google Translate",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "translate.google.com",
+            "translate.googleapis.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "translate.googleapis.com"
+        ],
+        "img-src": [
+            "translate.google.com",
+            "translate.googleapis.com",
+            "www.gstatic.com"
+        ],
+        "connect-src": [
+            "translate.google.com",
+            "translate.googleapis.com",
+            "www.gstatic.com"
+        ]
+    }
+}

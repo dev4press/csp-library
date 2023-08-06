@@ -1,0 +1,24 @@
+{
+    "name": "Adobe Typekit",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "use.typekit.net"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "*.typekit.net"
+        ],
+        "img-src": [
+            "*.typekit.net"
+        ],
+        "font-src": [
+            "data:",
+            "use.typekit.net"
+        ],
+        "connect-src": [
+            "performance.typekit.net",
+            "use.typekit.net"
+        ]
+    }
+}

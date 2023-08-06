@@ -1,0 +1,39 @@
+{
+    "name": "Facebook",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "connect.facebook.net",
+            "graph.facebook.com",
+            "js.facebook.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'"
+        ],
+        "frame-src": [
+            "*.facebook.com",
+            "connect.facebook.net"
+        ],
+        "child-src": [
+            "*.facebook.com",
+            "connect.facebook.net"
+        ],
+        "img-src": [
+            "*.facebook.com",
+            "*.facebook.net",
+            "*.fbcdn.net",
+            "data:"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.facebook.com",
+            "connect.facebook.net"
+        ],
+        "form-action": [
+            "*.facebook.com",
+            "connect.facebook.net"
+        ]
+    }
+}

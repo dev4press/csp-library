@@ -1,0 +1,20 @@
+{
+    "name": "Google Fonts",
+    "description": "",
+    "rules": {
+        "style-src": [
+            "fonts.googleapis.com"
+        ],
+        "img-src": [
+            "fonts.gstatic.com"
+        ],
+        "font-src": [
+            "fonts.googleapis.com",
+            "fonts.gstatic.com"
+        ],
+        "connect-src": [
+            "fonts.googleapis.com",
+            "fonts.gstatic.com"
+        ]
+    }
+}

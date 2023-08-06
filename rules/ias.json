@@ -1,0 +1,25 @@
+{
+    "name": "Ias",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "*.adsafeprotected.com"
+        ],
+        "frame-src": [
+            "*.adsafeprotected.com"
+        ],
+        "img-src": [
+            "*.adsafeprotected.com",
+            "about:"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.adsafeprotected.com"
+        ],
+        "base-uri": [
+            "*.adsafeprotected.com"
+        ]
+    }
+}

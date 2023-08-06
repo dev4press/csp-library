@@ -1,0 +1,40 @@
+{
+    "name": "Yahoo Ads",
+    "description": "",
+    "rules": {
+        "frame-ancestors": [
+            "*.yahoo.com",
+            "s.yimg.com"
+        ],
+        "script-src": [
+            "*.yahoo.com",
+            "cdn.browsiprod.com",
+            "query.yahooapis.com",
+            "s.yimg.com"
+        ],
+        "frame-src": [
+            "*.yahoo.com",
+            "s.yimg.com"
+        ],
+        "img-src": [
+            "*.yahoo.com",
+            "about:",
+            "ad.yieldmanager.com",
+            "s.yimg.com"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.browsiprod.com",
+            "*.yahoo.com",
+            "s.yimg.com"
+        ],
+        "base-uri": [
+            "*.yahoo.com"
+        ],
+        "media-src": [
+            "*.yimg.com"
+        ]
+    }
+}

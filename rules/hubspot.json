@@ -1,0 +1,60 @@
+{
+    "name": "HubSpot",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "forms.hsforms.com",
+            "js-na1.hs-scripts.com",
+            "js.hs-analytics.net",
+            "js.hs-banner.com",
+            "js.hs-scripts.com",
+            "js.hsadspixel.net",
+            "js.hscollectedforms.net",
+            "js.hsforms.net",
+            "js.hsleadflows.net",
+            "js.hubspotfeedback.com",
+            "js.usemessages.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'"
+        ],
+        "frame-src": [
+            "*.hubspot.com",
+            "forms.hsforms.com",
+            "js.hsadspixel.net",
+            "js.hscollectedforms.net",
+            "js.usemessages.com"
+        ],
+        "child-src": [
+            "app.hubspot.com",
+            "forms.hsforms.com",
+            "js.hsadspixel.net",
+            "js.hscollectedforms.net",
+            "js.usemessages.com"
+        ],
+        "img-src": [
+            "*.hubspot.com",
+            "cdn2.hubspot.net",
+            "forms.hsforms.com"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.hubspot.com",
+            "api.hubapi.com",
+            "forms.hsforms.com",
+            "js.hs-analytics.net",
+            "js.hs-banner.com",
+            "js.hs-scripts.com",
+            "js.hsadspixel.net",
+            "js.hsleadflows.net",
+            "js.hubspotfeedback.com",
+            "js.usemessages.com"
+        ],
+        "form-action": [
+            "forms.hsforms.com",
+            "forms.hubspot.com"
+        ]
+    }
+}

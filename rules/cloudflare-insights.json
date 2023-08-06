@@ -1,0 +1,13 @@
+{
+    "name": "Cloudflare Insights",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "'self'",
+            "static.cloudflareinsights.com"
+        ],
+        "connect-src": [
+            "cloudflareinsights.com"
+        ]
+    }
+}

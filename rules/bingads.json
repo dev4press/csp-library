@@ -1,0 +1,24 @@
+{
+    "name": "Bing Ads",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "bat.bing.com",
+            "r.bing.com"
+        ],
+        "style-src": [
+            "*.bing.com"
+        ],
+        "frame-src": [
+            "sdx.microsoft.com"
+        ],
+        "img-src": [
+            "*.bing.com",
+            "*.microsoft.com"
+        ],
+        "connect-src": [
+            "*.bing.com",
+            "wss:\/\/*.bing.com"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Vimeo",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "f.vimeocdn.com",
+            "player.vimeo.com",
+            "www.vimeo.com"
+        ],
+        "frame-src": [
+            "*.vimeo.com",
+            "vimeo.com"
+        ],
+        "child-src": [
+            "*.vimeo.com",
+            "vimeo.com"
+        ],
+        "img-src": [
+            "*.vimeo.com",
+            "*.vimeocdn.com"
+        ],
+        "connect-src": [
+            "vimeo.com"
+        ],
+        "media-src": [
+            "*.vimeo.com",
+            "vimeo.com"
+        ]
+    }
+}

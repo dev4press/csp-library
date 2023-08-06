@@ -1,0 +1,10 @@
+{
+    "name": "Cloudflare",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "'self'",
+            "ajax.cloudflare.com"
+        ]
+    }
+}

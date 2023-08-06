@@ -1,0 +1,28 @@
+{
+    "name": "Beamer",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "app.getbeamer.com",
+            "static.getbeamer.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "app.getbeamer.com"
+        ],
+        "frame-src": [
+            "*.getbeamer.com"
+        ],
+        "img-src": [
+            "app.getbeamer.com",
+            "data:",
+            "static.getbeamer.com"
+        ],
+        "connect-src": [
+            "backend.getbeamer.com"
+        ],
+        "form-action": [
+            "app.getbeamer.com"
+        ]
+    }
+}

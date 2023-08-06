@@ -1,0 +1,22 @@
+{
+    "name": "ChartBeat",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "static.chartbeat.com"
+        ],
+        "frame-src": [
+            "chartbeat.com"
+        ],
+        "img-src": [
+            "*.chartbeat.net"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "data:",
+            "mab.chartbeat.com"
+        ]
+    }
+}

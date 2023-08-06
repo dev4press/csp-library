@@ -1,0 +1,62 @@
+{
+    "name": "Google Adsense",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "'unsafe-eval'",
+            "*.doubleclick.net",
+            "*.google.com",
+            "*.googleadservices.com",
+            "*.googlesyndication.com",
+            "*.googletagservices.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "*.google.com"
+        ],
+        "object-src": [
+            "*.googlesyndication.com"
+        ],
+        "frame-src": [
+            "*.doubleclick.net",
+            "*.google.com",
+            "*.googlesyndication.com"
+        ],
+        "child-src": [
+            "*.doubleclick.net",
+            "*.google.com",
+            "*.googlesyndication.com",
+            "blob:"
+        ],
+        "img-src": [
+            "*.doubleclick.net",
+            "*.google.com",
+            "*.googlesyndication.com",
+            "data:",
+            "www.googleadservices.com"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.doubleclick.net",
+            "*.google.com",
+            "*.googlesyndication.com",
+            "about:",
+            "www.googletagservices.com"
+        ],
+        "form-action": [
+            "*.google.com"
+        ],
+        "media-src": [
+            "dai.google.com"
+        ],
+        "prefetch-src": [
+            "*.googlesyndication.com"
+        ],
+        "worker-src": [
+            "blob:",
+            "www.google.com"
+        ]
+    }
+}

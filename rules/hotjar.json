@@ -1,0 +1,29 @@
+{
+    "name": "Hotjar",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "script.hotjar.com",
+            "static.hotjar.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'"
+        ],
+        "frame-src": [
+            "vars.hotjar.com"
+        ],
+        "img-src": [
+            "data:",
+            "script.hotjar.com"
+        ],
+        "font-src": [
+            "data:",
+            "script.hotjar.com"
+        ],
+        "connect-src": [
+            "*.hotjar.com",
+            "*.hotjar.io",
+            "wss:\/\/*.hotjar.com"
+        ]
+    }
+}

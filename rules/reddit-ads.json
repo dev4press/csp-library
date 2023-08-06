@@ -1,0 +1,21 @@
+{
+    "name": "Reddit Ads",
+    "description": "",
+    "rules": {
+        "frame-ancestors": [
+            "www.reddit.com"
+        ],
+        "script-src": [
+            "www.redditstatic.com"
+        ],
+        "img-src": [
+            "alb.reddit.com",
+            "www.redditstatic.com"
+        ],
+        "connect-src": [
+            "*.reddit.com",
+            "reddit.com",
+            "www.redditstatic.com"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Bidtellect",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "bttrack.com",
+            "cdn.bttrack.com"
+        ],
+        "img-src": [
+            "*.bttrack.com",
+            "bttrack.com"
+        ],
+        "connect-src": [
+            "bttrack.com"
+        ],
+        "media-src": [
+            "video.bttrack.com"
+        ]
+    }
+}

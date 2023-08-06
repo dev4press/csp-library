@@ -1,0 +1,27 @@
+{
+    "name": "TripleLift",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "*.3lift.com",
+            "data:"
+        ],
+        "frame-src": [
+            "*.3lift.com",
+            "data:"
+        ],
+        "img-src": [
+            "*.3lift.com",
+            "about:"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.3lift.com"
+        ],
+        "media-src": [
+            "cdn.3lift.com"
+        ]
+    }
+}

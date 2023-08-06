@@ -1,0 +1,24 @@
+{
+    "name": "Aniview",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "play.aniview.com",
+            "player.aniview.com"
+        ],
+        "img-src": [
+            "*.aniview.com",
+            "about:"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "*.aniview.com",
+            "about:"
+        ],
+        "media-src": [
+            "*.aniview.com"
+        ]
+    }
+}

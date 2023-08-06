@@ -1,0 +1,31 @@
+{
+    "name": "Google Tag Manager",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "googletagmanager.com",
+            "tagmanager.google.com",
+            "www.googletagmanager.com"
+        ],
+        "style-src": [
+            "tagmanager.google.com",
+            "www.googletagmanager.com"
+        ],
+        "frame-src": [
+            "www.googletagmanager.com"
+        ],
+        "child-src": [
+            "www.googletagmanager.com"
+        ],
+        "img-src": [
+            "data:",
+            "www.googletagmanager.com"
+        ],
+        "font-src": [
+            "data:"
+        ],
+        "connect-src": [
+            "www.googletagmanager.com"
+        ]
+    }
+}

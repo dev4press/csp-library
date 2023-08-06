@@ -1,0 +1,15 @@
+{
+    "name": "Sentry",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "*.sentry.io",
+            "browser.sentry-cdn.com",
+            "js.sentry-cdn.com"
+        ],
+        "connect-src": [
+            "*.sentry.io",
+            "sentry.io"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "BrainTree",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "assets.braintreegateway.com",
+            "js.braintreegateway.com"
+        ],
+        "style-src": [
+            "assets.braintreegateway.com"
+        ],
+        "frame-src": [
+            "*.braintreegateway.com"
+        ],
+        "child-src": [
+            "*.braintreegateway.com"
+        ],
+        "img-src": [
+            "assets.braintreegateway.com",
+            "data:"
+        ],
+        "connect-src": [
+            "*.braintree-api.com",
+            "*.braintreegateway.com"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "MixPanel",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "cdn.mxpnl.com",
+            "cdn4.mxpnl.com"
+        ],
+        "connect-src": [
+            "*.mixpanel.com",
+            "cdn.mxpnl.com"
+        ]
+    }
+}

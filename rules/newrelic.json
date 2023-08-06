@@ -1,0 +1,17 @@
+{
+    "name": "New Relic",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "*.nr-data.net",
+            "js-agent.newrelic.com"
+        ],
+        "img-src": [
+            "*.nr-data.net",
+            "data:"
+        ],
+        "connect-src": [
+            "*.nr-data.net"
+        ]
+    }
+}
