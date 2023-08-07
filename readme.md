@@ -1,4 +1,4 @@
-# Content Security Policy
+# Content Security Policy Library
 ## List of rules for popular websites and services
 
 CSP, or Content Security Policy is an increasingly popular and important method of protecting your website and limiting what content is allowed. This project aims to gather and maintain the list of CSP rules for popular websites and online services. 
