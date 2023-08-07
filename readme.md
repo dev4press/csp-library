@@ -16,7 +16,7 @@ All the rules are in the JSON formatted file, and each service or website has a 
 
 ### CSP Directives
 
-This is the list of the current CSP directives supported by majority of browsers. There may be some new directives added or tested, some may be deprecated, so this list will change over time.
+This is the list of the current CSP directives supported by the majority of browsers. Some new directives may be added or tested, and some may be deprecated so that this list will change over time.
 
 * default-src
 * script-src
@@ -36,3 +36,32 @@ This is the list of the current CSP directives supported by majority of browsers
 * style-src-attr
 * style-src-elem
 * base-uri
+
+### Rules File Format
+
+The JSON file format used for each website or service rule is straightforward. It contains properties for the website or service name and description. And, most important property is 'rules' where each directive needed is listed, and each directive is an array of required values (URL's or other special values supported by CSP). Here is the Adobe Typekit rules file, with 5 required directives to make the Adobe Typekit integration work
+
+`{
+    "name": "Adobe Typekit",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "use.typekit.net"
+        ],
+        "style-src": [
+            "'unsafe-inline'",
+            "*.typekit.net"
+        ],
+        "img-src": [
+            "*.typekit.net"
+        ],
+        "font-src": [
+            "data:",
+            "use.typekit.net"
+        ],
+        "connect-src": [
+            "performance.typekit.net",
+            "use.typekit.net"
+        ]
+    }
+}`
