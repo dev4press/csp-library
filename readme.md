@@ -13,3 +13,26 @@ All the rules are in the JSON formatted file, and each service or website has a 
 
 * [Content Security Policy Reference](https://content-security-policy.com/)
 * [CSP on Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
+
+### CSP Directives
+
+This is the list of the current CSP directives supported by majority of browsers. There may be some new directives added or tested, some may be deprecated, so this list will change over time.
+
+* default-src
+* script-src
+* style-src
+* img-src
+* font-src
+* media-src
+* connect-src
+* child-src
+* frame-src
+* manifest-src
+* object-src
+* worker-src
+* form-action
+* script-src-attr
+* script-src-elem
+* style-src-attr
+* style-src-elem
+* base-uri
