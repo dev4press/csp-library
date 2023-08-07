@@ -41,7 +41,8 @@ This is the list of the current CSP directives supported by the majority of brow
 
 The JSON file format used for each website or service rule is straightforward. It contains properties for the website or service name and description. And, most important property is 'rules' where each directive needed is listed, and each directive is an array of required values (URL's or other special values supported by CSP). Here is the Adobe Typekit rules file, with 5 required directives to make the Adobe Typekit integration work
 
-`{
+```
+{
     "name": "Adobe Typekit",
     "description": "",
     "rules": {
@@ -64,4 +65,7 @@ The JSON file format used for each website or service rule is straightforward. I
             "use.typekit.net"
         ]
     }
-}`
+}
+```
+
+At this time, I have not filled in the descriptions, but that might change over time. Make a pull request if you want to help with that too.
