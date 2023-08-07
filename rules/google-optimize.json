@@ -1,0 +1,13 @@
+{
+    "name": "Google Optimize",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "'unsafe-eval'",
+            "www.googleoptimize.com"
+        ],
+        "style-src": [
+            "'unsafe-inline'"
+        ]
+    }
+}

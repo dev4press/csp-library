@@ -1,0 +1,10 @@
+{
+    "name": "Geolocation DB",
+    "description": "",
+    "rules": {
+        "connect-src": [
+            "geoip-db.com",
+            "geolocation-db.com"
+        ]
+    }
+}
