@@ -1,0 +1,15 @@
+{
+    "name": "cloudflare Turnstile",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "challenges.cloudflare.com"
+        ],
+        "frame-src": [
+            "challenges.cloudflare.com"
+        ],
+        "connect-src": [
+            "challenges.cloudflare.com"
+        ],
+    }
+}
