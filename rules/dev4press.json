@@ -1,0 +1,9 @@
+{
+    "name": "Dev4Press",
+    "description": "",
+    "rules": {
+        "img-src": [
+            "*.dev4press.com"
+        ]
+    }
+}
