@@ -17,6 +17,6 @@
         "connect-src": [
             "hcaptcha.com",
             "*.hcaptcha.com"
-        ],
+        ]
     }
 }
