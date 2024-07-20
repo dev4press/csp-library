@@ -1,0 +1,20 @@
+{
+    "name": "Sender",
+    "description": "",
+    "rules": {
+        "script-src": [
+            "'unsafe-eval'",
+            "'unsafe-inline'",
+            "cdn.sender.net"
+        ],
+        "style-src": [
+            "cdn.sender.net"
+        ],
+        "img-src": [
+            "cdn.sender.net"
+        ],
+        "connect-src": [
+            "cdn.sender.net"
+        ]
+    }
+}
