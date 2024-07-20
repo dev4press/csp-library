@@ -14,7 +14,8 @@
             "cdn.sender.net"
         ],
         "connect-src": [
-            "cdn.sender.net"
+            "cdn.sender.net",
+            "stats.sender.net"
         ]
     }
 }
