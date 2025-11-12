@@ -3,16 +3,32 @@
     "description": "",
     "rules": {
         "script-src": [
-            "*.freemius.com"
+            "checkout.freemius.com",
+            "customers.freemius.com",
+            "users.freemius.com",
+            "js.freemius.com"
         ],
         "style-src": [
-            "*.freemius.com"
+            "checkout.freemius.com",
+            "customers.freemius.com",
+            "users.freemius.com",
         ],
         "img-src": [
-            "*.freemius.com"
+           "checkout.freemius.com",
+            "customers.freemius.com",
+            "users.freemius.com",
+            "img.freemius.com"
+        ],
+        "font-src": [
+            "checkout.freemius.com"
         ],
         "frame-src": [
-            "*.freemius.com"
+            "checkout.freemius.com",
+            "customers.freemius.com",
+            "users.freemius.com"
+        ],
+        "connect-src": [
+            "checkout.freemius.com"
         ]
     }
 }
